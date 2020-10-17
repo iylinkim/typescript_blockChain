@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015", //어떤버전의 javascript로 컴파일 되고싶은지 결정
+        "sourceMap": true,//sourcemap 처리 여부
+        "outDir": "dist" //컴파일된 모든 것들이 dist 폴더로 들어감
+    },
+    // 어떤 파일들이 컴파일 과정에 포함되는지 Typescript에게 알려주기
+    // 컴파일 과정에서 포함할 파일의 배열 적으면 됨
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}

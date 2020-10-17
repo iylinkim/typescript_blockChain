@@ -1,0 +1,14 @@
+{
+  "name": "typescript_blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iylinkim/typescript_blockChain",
+  "author": "Iylin <kiylin94@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  }
+}
